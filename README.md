@@ -6,3 +6,4 @@ Sebagaimana tanah liat dapat membentuk wadah, website ini adalah bentuk dari ide
 Melalui proyek ini saya berharap dapat terus mengeksplorasi dunia pengembangan web, memperluas pemahaman teknis, serta menjadikannya sebagai jejak digital yang mencerminkan perjalanan saya dalam belajar dan berkembang.
 Repositori ini terbuka untuk diperbarui, dikembangkan, diperbaiki, dan dijadikan pondasi bagi proyek-proyek saya berikutnya. Karena saya percaya, karya terbaik bukanlah yang selesai, melainkan yang terus bertumbuh.
 
+Irwan Rosadi
