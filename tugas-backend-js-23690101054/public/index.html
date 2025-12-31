@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume/CV - [Irwan Rosadi]</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header>
+        <h1>[Irwan Rosadi]</h1>
+            <div class="header-details">
+                <img src="LOGO HIMA NEW2.png" width="150" height="150" alt="Foto Irwan Rosadi">
+                <div>
+                    <p class="role">[CALON PRESIDEN]</p>
+                    <p class="contact-info">IRWAN R | [089646444849] | [Kabupaten Bone]]</p>
+                </div>
+            </div>
+    </header>
+
+    <nav>
+        <ul>
+           <li><a href="#profil-ringkas">Profil</a></li>
+           <li><a href="#pengalaman-organisasi">Organisasi</a></li>
+           <li><a href="#pendidikan">Pendidikan</a></li>
+           <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+    
+    <section id="interactive-area">
+        <button id="theme-toggle-btn">
+            Ubah ke Light Mode
+        </button>
+        <button id="greet-btn">
+            Sapa Saya
+        </button>
+        <p id="greeting-message">
+            *Selamat datang, klik "Sapa Saya" untuk interaksi!*
+        </p>
+    </section>
+    <main>
+        
+        <section id="profil-ringkas">
+            <h2>Profil Singkat</h2>
+            <p>Saya adalah seorang pemuda yang mempunyai tekad untuk terus tumbuh dan berkembang layaknya teknologi,Seorang pemuda yang menginginkan perubahan nyata.</p>
+        </section>
+        
+        <section id="pengalaman-organisasi">
+            <h2>Pengalaman organisasi</h2>
+            <div class="experience-grid">
+                <article class="grid-item">
+                    <p><strong> [April/2023] - [Sekarang]</strong></p>
+                    <h3> [KETUA] di [DEWAN AMBALAN PUTRA]</h3>
+                    <ul>
+                        <li>Kordinator Giatops [Tahun 2024 - 2025]</li>
+                        <li>Ketua Dewan Ambalan Putra [Tahun 2025- sekarang. </li>
+                    </ul>
+                </article>
+
+                <article class="grid-item">
+                    <h3>[Anggota Bidang] di [Himpunan Mahasiswa Teknologi Pendidikan]</h3>
+                    <p><strong>[APRIL/2023] - [</Tahun> Selesai]</strong> | Bone]</p>
+                </article>
+                
+                <article class="grid-item">
+                    <h3>[Proyek Sampingan] - [Pembuat Web]</h3>
+                    <p><strong>[2024] - [Sekarang]</strong> | Fokus pada desain responsif dan UX modern.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="pendidikan">
+            <h2>Pendidikan</h2>
+            
+            <article>
+                <h3>[TEKPEN] - [FKIP]</h3>
+                <p><strong>[Universitas Muhammadiyah Bone]</strong> | [2023] - [Sekarang] </p>
+            </article>
+        </section>
+
+    </main>
+    <section id="kontak" 
+        style="padding: 20px;
+                background: #1e1e1e;
+                border-radius: 8px;
+                margin-top: 20px;">
+                <h2>Hubungi Saya</h2>    
+        <form action="/contact" method="POST">
+            <div style="margin-bottom: 10px;">
+                <label>Nama</label> <br>
+                <input type="text" name="name" required style="width: 100%;
+                padding: 8px;
+                height: 100px;"><textarea">
+            </div>
+            <button type="submit"style="
+                background: #00bcd4;
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;">kirim pesan</button>"
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Irwan Rosadi. Didesain dengan Flexbox & Grid.</p>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+        </div>
+    </footer>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>
